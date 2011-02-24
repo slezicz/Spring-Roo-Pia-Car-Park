@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_zcu_fav_kiv_pia_slezacek_model_Vehicle" modelAttribute="vehicle" path="/vehicles" z="gR/9Wc+ofbFRQJTvtZBZvDdIZ+Q=">
+        <field:select field="car" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_car" itemValue="id" items="${cars}" path="/cars" z="3YhjQ2C4x1AYfM52hwLfzBFOGMI="/>
+        <field:select field="owner" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_owner" itemValue="id" items="${userses}" path="/users" z="BVXMryJeAYPliJySykG32dfv7Us="/>
+        <field:input field="tankState" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_tankState" validationMessageCode="field_invalid_number" z="Fw+qrwLe5L+AeSBznHhPwrLQzsM="/>
+        <field:input field="fuelConsumptionTo100Km" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_fuelConsumptionTo100Km" required="true" validationMessageCode="field_invalid_number" z="Htl1dz7TKGvNPNpiL+YH3P9i9fo="/>
+        <field:input field="mileage" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_mileage" required="true" validationMessageCode="field_invalid_number" z="ZOjzkxXfOjXT9tBLkmi0xJOMcp4="/>
+        <field:input field="price" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_price" validationMessageCode="field_invalid_number" z="A1Ithh77bEbXyajfAHNWKvERy4Y="/>
+        <field:checkbox field="isMobile" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_isMobile" z="8TnUa/lyegxiSuWHAa2gB+wG1gI="/>
+        <field:input field="numberPlate" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_numberPlate" required="true" z="6es96EF9bXyviuM4lqW2KYqnZOs="/>
+        <field:input field="photoFile" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_photoFile" z="u1m2zwvQC5AUF64/tZqjbs1kghs="/>
+        <field:input field="comment" id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_comment" z="zUjMqkDGyTogKUnJLVxA2qJM9AQ="/>
+    </form:update>
+</div>

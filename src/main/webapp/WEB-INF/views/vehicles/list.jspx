@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_zcu_fav_kiv_pia_slezacek_model_Vehicle" items="${vehicles}" z="73T+0lf1DvK/HhBVNRTgBeBe0qM=">
+        <table:table data="${vehicles}" id="l_org_zcu_fav_kiv_pia_slezacek_model_Vehicle" path="/vehicles" z="Trut4fUKKEbCphzzkZQWMSt48/s=">
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_car" property="car" z="z56n1lJUV2xb1TWzfJQTtEAeoGU="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_owner" property="owner" z="W/9lx5kuMj23E663NvpkqFbjBvI="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_tankState" property="tankState" z="TGs91JgwczEInLRJ233fkHufdc4="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_fuelConsumptionTo100Km" property="fuelConsumptionTo100Km" z="iLmxhj9fBMlCXRSmnH1EqUOsCW4="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_mileage" property="mileage" z="m1RUEZ+9ku6D5aOeoMkPpB3nT8E="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_price" property="price" z="PNVtvwNyRp1PTu40w9F9vkdYGG4="/>
+        </table:table>
+    </page:list>
+</div>

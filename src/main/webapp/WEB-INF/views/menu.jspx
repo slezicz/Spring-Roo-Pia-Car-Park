@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8"/>
+	<jsp:output omit-xml-declaration="yes"/>
+
+<menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+	<menu:category id="c_action" label="Actions">
+		<menu:item id="i_login" label="Login" url="/login" />
+	</menu:category>
+        <menu:category id="c_users" z="Ysam8XVhG5uotPoUGGxkia1RE/s=">
+            <menu:item id="i_users_new" messageCode="global_menu_new" url="/users?form" z="L+7IkrQuRLyApOwtDxYq/0K0xg0="/>
+        <menu:item id="i_users_list" messageCode="global_menu_list" url="/users?page=1&amp;size=${empty param.size ? 10 : param.size}" z="v2/Y/bf3UeY0MBUQPGhV2unshpc="/>
+        <menu:item id="fi_users_username" messageCode="global_menu_find" url="/users?find=ByUsername&amp;form" z="cOTbUXWu2+N+q0NyhGMOpuudZ40="/>
+        </menu:category>
+    <menu:category id="c_authorities" z="GIjKsVX7q9V5I+B/i5YP+XPvlK0=">
+            <menu:item id="i_authorities_new" messageCode="global_menu_new" url="/authorities?form" z="user-managed"/>
+        <menu:item id="i_authorities_list" messageCode="global_menu_list" url="/authorities?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+        </menu:category>
+    <menu:category id="c_car" z="BxNSFx59MCa+LUyRUx07asFquag=">
+            <menu:item id="i_car_new" messageCode="global_menu_new" url="/cars?form" z="ZEA/othUHdDhpcz5+ErPmdQ8CK4="/>
+        <menu:item id="i_car_list" messageCode="global_menu_list" url="/cars?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kJ+jJATzk9F2jUYqrkfxDDOH13k="/>
+        </menu:category>
+    <menu:category id="c_vehicle" z="/d6OU92xJ9e7dFPG6JG1uCb6RQw=">
+            <menu:item id="i_vehicle_new" messageCode="global_menu_new" url="/vehicles?form" z="AggERh2ZKUWhdvcKXXYQX1aCf+o="/>
+        <menu:item id="i_vehicle_list" messageCode="global_menu_list" url="/vehicles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4GkBTCIhmn9E568lDeEa7hnE/5Y="/>
+        </menu:category>
+    <menu:category id="c_uservehiclerights" z="A1sCJI3FZjDF8iYJ/F4l0ZFytrQ=">
+            <menu:item id="i_uservehiclerights_new" messageCode="global_menu_new" url="/uservehiclerights?form" z="user-managed"/>
+        <menu:item id="i_uservehiclerights_list" messageCode="global_menu_list" url="/uservehiclerights?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+        <menu:item id="fi_uservehiclerights_personandvehicleandcandrive" messageCode="global_menu_find" url="/uservehiclerights?find=ByPersonAndVehicleAndCanDrive&amp;form" z="user-managed"/>
+        <menu:item id="fi_uservehiclerights_personandvehicleandcantank" messageCode="global_menu_find" url="/uservehiclerights?find=ByPersonAndVehicleAndCanTank&amp;form" z="user-managed"/>
+        <menu:item id="fi_uservehiclerights_personandvehicleandcanrepair" messageCode="global_menu_find" url="/uservehiclerights?find=ByPersonAndVehicleAndCanRepair&amp;form" z="user-managed"/>
+        </menu:category>
+    <menu:category id="c_repair" z="8VaCOULsemWC9Y81O4AnURaefsU=">
+            <menu:item id="i_repair_new" messageCode="global_menu_new" url="/repairs?form" z="KZbeL7t+QmMOjB1LqNu4eWA2B28="/>
+        <menu:item id="i_repair_list" messageCode="global_menu_list" url="/repairs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="af7In5TmkiduU2AmKuOtmNbP5XU="/>
+        </menu:category>
+    <menu:category id="c_trip" z="h/AX4rednVpnDBieL7TobdFyklk=">
+            <menu:item id="i_trip_new" messageCode="global_menu_new" url="/trips?form" z="7dP92Z1DsvZwBMdp6TyvUdaNLXg="/>
+        <menu:item id="i_trip_list" messageCode="global_menu_list" url="/trips?page=1&amp;size=${empty param.size ? 10 : param.size}" z="z2x4tZhCFid8505ZwDcTFG1p0QI="/>
+        </menu:category>
+    <menu:category id="c_tank" z="2SumCJMezWZpji7c4ewI4MGKfzQ=">
+            <menu:item id="i_tank_new" messageCode="global_menu_new" url="/tanks?form" z="XkrQE7p1v3xXSNYYNIongMzrW6Q="/>
+        <menu:item id="i_tank_list" messageCode="global_menu_list" url="/tanks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="LMz6aiq4daEGJS6JsVhIPe7an34="/>
+        </menu:category>
+    </menu:menu>
+</div>

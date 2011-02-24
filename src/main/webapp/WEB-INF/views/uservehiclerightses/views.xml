@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="uservehiclerightses/list">
+        <put-attribute name="body" value="/WEB-INF/views/uservehiclerightses/list.jspx"/>
+    </definition>
+<definition extends="default" name="uservehiclerightses/show">
+        <put-attribute name="body" value="/WEB-INF/views/uservehiclerightses/show.jspx"/>
+    </definition>
+<definition extends="default" name="uservehiclerightses/create">
+        <put-attribute name="body" value="/WEB-INF/views/uservehiclerightses/create.jspx"/>
+    </definition>
+<definition extends="default" name="uservehiclerightses/update">
+        <put-attribute name="body" value="/WEB-INF/views/uservehiclerightses/update.jspx"/>
+    </definition>
+<definition extends="default" name="uservehiclerightses/findUserVehicleRightsesByPersonAndVehicleAndCanDrive">
+        <put-attribute name="body" value="/WEB-INF/views/uservehiclerightses/findUserVehicleRightsesByPersonAndVehicleAndCanDrive.jspx"/>
+    </definition>
+<definition extends="default" name="uservehiclerightses/findUserVehicleRightsesByPersonAndVehicleAndCanTank">
+        <put-attribute name="body" value="/WEB-INF/views/uservehiclerightses/findUserVehicleRightsesByPersonAndVehicleAndCanTank.jspx"/>
+    </definition>
+<definition extends="default" name="uservehiclerightses/findUserVehicleRightsesByPersonAndVehicleAndCanRepair">
+        <put-attribute name="body" value="/WEB-INF/views/uservehiclerightses/findUserVehicleRightsesByPersonAndVehicleAndCanRepair.jspx"/>
+    </definition>
+</tiles-definitions>

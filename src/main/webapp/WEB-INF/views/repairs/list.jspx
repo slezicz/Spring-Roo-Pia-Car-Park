@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_zcu_fav_kiv_pia_slezacek_model_Repair" items="${repairs}" z="dsmesOtuf79l/vdd4JabkZHpYC4=">
+        <table:table data="${repairs}" id="l_org_zcu_fav_kiv_pia_slezacek_model_Repair" path="/repairs" z="HZca3Fe5wUkQu+7xYE+uKZjcO64=">
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Repair_person" property="person" z="hkp5KLn74Ewb9MGkSkjIdIko4zs="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Repair_vehicle" property="vehicle" z="B+1vML7kKBtpWbi/7MxSqG7iqtE="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Repair_reapirDate" property="reapirDate" z="+nh22PYbjeBOwWnxE3hshP6vwjc="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Repair_cost" property="cost" z="X3AwVkmclPb0zGjxanAHWuwgVWM="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Repair_repaired" property="repaired" z="6JQkQErlTGPHPzJvmX/Ck6iC3mE="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Repair_description" property="description" z="Ny7OEe/beq4H28LZDKH6irAooDQ="/>
+        </table:table>
+    </page:list>
+</div>

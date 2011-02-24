@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_zcu_fav_kiv_pia_slezacek_model_Tank" items="${tanks}" z="ks+yS/l8ov8FyVlRMhIRLS0/0+8=">
+        <table:table data="${tanks}" id="l_org_zcu_fav_kiv_pia_slezacek_model_Tank" path="/tanks" z="ebZfAwrO3PxHzL4XKdqKadrg+HY=">
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Tank_person" property="person" z="Morz7ft3GpnlcQ5L3QL87TqAzNk="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Tank_vehicle" property="vehicle" z="xKXPAV2MI1wlMG+G39rPgqfkXCQ="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Tank_tankDate" property="tankDate" z="qjvAk1WDtU0t7JHXR/7vePTFE4U="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Tank_amount" property="amount" z="MctZh2/+rZJNB29OdFcZAPm8tNo="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Tank_pricePerLiter" property="pricePerLiter" z="XXks0HQAbEzr0e+BXeLsZ3yLpUk="/>
+        </table:table>
+    </page:list>
+</div>

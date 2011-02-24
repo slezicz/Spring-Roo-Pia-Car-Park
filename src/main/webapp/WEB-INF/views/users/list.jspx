@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_zcu_fav_kiv_pia_slezacek_model_Users" items="${userses}" z="CvVmpx+B/0jqtJB3mwFyCRmntS4=">
+        <table:table data="${userses}" id="l_org_zcu_fav_kiv_pia_slezacek_model_Users" path="/users" z="Onwfbi2hLxGxKGIXf1PnIukMBMU=">
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_username" property="username" z="Oc0tSfnCOB5E5BYKbZkglDNsV9U="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_password" property="password" z="sW4BIONw/8Rw4CY7TbRZ/Jbpzs8="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_email" property="email" z="JJC8ETmP2bhujWVz7LUbcwMq4f4="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_enabled" property="enabled" z="piNjpWJWDlnp3wLkmyL/0mGFEQY="/>
+        </table:table>
+    </page:list>
+</div>

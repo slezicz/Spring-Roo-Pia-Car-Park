@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_zcu_fav_kiv_pia_slezacek_model_Authorities" items="${authoritieses}" z="HVS9b9I4GqlSj5WJTjma3LAM7A4=">
+        <table:table data="${authoritieses}" id="l_org_zcu_fav_kiv_pia_slezacek_model_Authorities" path="/authoritieses" z="JPH0Q9OvScUDVcYfFjajg9niUqk=">
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Authorities_userEntry" property="userEntry" z="3FT8a8cpXwMezAN6urNrQAvgc04="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Authorities_roleName" property="roleName" z="504bB/ZEERVK0O7IT+IjSg2qoEs="/>
+        </table:table>
+    </page:list>
+</div>

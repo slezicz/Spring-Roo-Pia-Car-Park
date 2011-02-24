@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_zcu_fav_kiv_pia_slezacek_model_Repair" object="${repair}" path="/repairs" z="FOUfbUTGGCROAf+pFErlGAGBKrw=">
+        <field:display field="person" id="s_org_zcu_fav_kiv_pia_slezacek_model_Repair_person" object="${repair}" z="uAugpTdj4+TYv3dYYVZ5C+APF5s="/>
+        <field:display field="vehicle" id="s_org_zcu_fav_kiv_pia_slezacek_model_Repair_vehicle" object="${repair}" z="NU5e3ll0ObCLUQUvmbGOOoVYtvo="/>
+        <field:display date="true" dateTimePattern="${repair_reapirdate_date_format}" field="reapirDate" id="s_org_zcu_fav_kiv_pia_slezacek_model_Repair_reapirDate" object="${repair}" z="L4GmWCCGFfStp88rB3rDH6V8KQY="/>
+        <field:display field="cost" id="s_org_zcu_fav_kiv_pia_slezacek_model_Repair_cost" object="${repair}" z="NRVF9vZoJL157GZwWjVfuSLMl0Y="/>
+        <field:display field="repaired" id="s_org_zcu_fav_kiv_pia_slezacek_model_Repair_repaired" object="${repair}" z="ywyXmAuDuBU0rn393+RY/wrXDOw="/>
+        <field:display field="description" id="s_org_zcu_fav_kiv_pia_slezacek_model_Repair_description" object="${repair}" z="z2F23UOuBAcV5E2R14kCilh1eEQ="/>
+        <field:display field="mechanic" id="s_org_zcu_fav_kiv_pia_slezacek_model_Repair_mechanic" object="${repair}" z="KU37akDY6qAOYLoJXqXd25PAC5s="/>
+    </page:show>
+</div>

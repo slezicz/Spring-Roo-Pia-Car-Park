@@ -1,0 +1,104 @@
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-04 15:41:18
+project --topLevelPackage org.zcu.fav.kiv.pia.slezacek --projectName roo4 --java 6
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log closed at 2011-02-04 15:41:19
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-04 15:41:20
+persistence setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT 
+enum type --class ~.reference.CarManufacturer
+enum constant --name Skoda
+
+enum constant --name Renault
+enum constant --name Paeguot
+enum constant --name Chevrolet
+enum type --class ~.reference.CarBody
+
+enum constant --name Sedan
+enum constant --name Hatchback
+enum constant --name Combi
+
+entity --class ~.model.Users  
+
+field string --fieldName username --notNull --unique true --sizeMin 3 
+
+field string --fieldName password --sizeMin 4 --notNull yes
+
+field string --fieldName passwordCheck --sizeMin 4 --notNull yes --transient true
+
+field string --fieldName email --notNull true --unique true --regexp "^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"
+field boolean --fieldName enabled --value "true"
+field string --fieldName captchaChalenge --transient true 
+
+field string --fieldName captchaCheck --transient true 
+
+entity --class ~.model.Authorities
+field ref --fieldName userEntry --type ~.model.Users --notNull
+field string --fieldName roleName  --notNull true --unique true
+entity --class ~.model.Car 
+field enum --fieldName manufacturer --type ~.reference.CarManufacturer  --class ~.model.Car
+field string --fieldName model --notNull true
+
+field enum --fieldName carBody --type ~.reference.CarBody
+
+field number --fieldName maxTankCapacity --type java.lang.Float --notNull true
+
+entity --class ~.model.AbstractAction  --abstract true
+
+field reference --fieldName person --type Users --notNull  --class ~.model.AbstractAction
+
+entity --class ~.model.Vehicle
+
+focus --class ~model.AbstractAction
+
+field reference --fieldName vehicle --type Vehicle
+
+field reference --fieldName car --type Car  --class ~model.Vehicle
+
+field reference --fieldName owner --type Users
+
+field number --fieldName tankState --type java.lang.Float --value 0
+
+field number --fieldName fuelConsumptionTo100Km  --type java.lang.Float --notNull
+
+field number --fieldName mileage --type java.lang.Float --notNull
+
+field number --fieldName price --type java.lang.Float --value 0
+
+field boolean --fieldName isMobile --value true
+
+field string --fieldName numberPlate --notNull --unique true
+
+field string --fieldName photoFile
+
+field string --fieldName comment
+
+entity --class ~.model.UserVehicleRights --extends ~.model.AbstractAction
+field reference --fieldName delegate --type Users
+field boolean --fieldName canDrive  --value false
+field boolean --fieldName canTank --value false
+
+field boolean --fieldName canRepair --value false
+
+entity --class ~.model.Repair --extends ~.model.AbstractAction
+
+field date --fieldName reapirDate --type java.util.Date --notNull  --class ~.model.Repair
+
+field number --fieldName cost --type java.lang.Float --notNull true
+
+field boolean --fieldName repaired --value true
+
+field string --fieldName description
+
+field reference --fieldName mechanic --type ~.model.Users
+
+entity --class ~.model.Tank --extends ~.model.AbstractAction
+
+field date --fieldName date --type java.util.Date --notNull  --class ~.model.Tank --permitReservedWords
+
+field number --fieldName amount --type java.lang.Float  --notNull 
+
+field number --fieldName pricePerLiter --type java.lang.Float --notNull
+
+entity --class ~.model.Trip --extends ~.model.AbstractAction 
+
+focus --class ~model.Trip
+field number --fieldName pricePerLiter --type java.lang.Float --notNull
+field number --fieldName distance --type java.lang.Float --notNull

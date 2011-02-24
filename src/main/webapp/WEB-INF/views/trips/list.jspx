@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_zcu_fav_kiv_pia_slezacek_model_Trip" items="${trips}" z="ufSj4zOOKA2ZaHxxH5yLaOBXJ+c=">
+        <table:table data="${trips}" id="l_org_zcu_fav_kiv_pia_slezacek_model_Trip" path="/trips" z="+8SzQpsFkilLWHr8tIKvDYZ/jSw=">
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Trip_person" property="person" z="B6ay7wCKJaaIJ3ks6fFat0RULzw="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Trip_vehicle" property="vehicle" z="H1BNE8cdOB8BXIdONe2U7yOo0Q8="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Trip_tripDate" property="tripDate" z="MPlVD8UPqwlgmo1QfjGUP4mXsdg="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Trip_distance" property="distance" z="bVcLoiLx4rzMdw/Kz2yRqypQsmw="/>
+        </table:table>
+    </page:list>
+</div>

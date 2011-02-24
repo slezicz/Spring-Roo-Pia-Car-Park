@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_org_zcu_fav_kiv_pia_slezacek_model_Car" modelAttribute="car" path="/cars" render="${empty dependencies}" z="QEphKISld3HOc2wHY6TMksvlwIs=">
+        <field:select field="manufacturer" id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_manufacturer" items="${carmanufacturers}" path="carmanufacturers" z="1NOJrvoTzYUWqkMRKOFeLh/JsdQ="/>
+        <field:input field="model" id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_model" required="true" z="R0TvLdVZ4XybSvsBhOWdCCf00oI="/>
+        <field:select field="carBody" id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_carBody" items="${carbodys}" path="carbodys" z="RZWsqxUJYFTNerE6FF879U0uFvA="/>
+        <field:input field="maxTankCapacity" id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_maxTankCapacity" required="true" validationMessageCode="field_invalid_number" z="Y4oC3eGK09tBUZsxrKAyGA36tmY="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_org_zcu_fav_kiv_pia_slezacek_model_Car" render="${not empty dependencies}" z="bb25ggLciks9KT7qdQ85R68hNa0="/>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_zcu_fav_kiv_pia_slezacek_model_Tank" object="${tank}" path="/tanks" z="eGJHOsNM0lLh2EP270CiV9yn68g=">
+        <field:display field="person" id="s_org_zcu_fav_kiv_pia_slezacek_model_Tank_person" object="${tank}" z="+tsL5rMekqtC1wU2ZGf8s6fwT1o="/>
+        <field:display field="vehicle" id="s_org_zcu_fav_kiv_pia_slezacek_model_Tank_vehicle" object="${tank}" z="fk63Cmwz1DTD8dVZoWlX7vfmUrI="/>
+        <field:display date="true" dateTimePattern="${tank_tankdate_date_format}" field="tankDate" id="s_org_zcu_fav_kiv_pia_slezacek_model_Tank_tankDate" object="${tank}" z="PhGCouO85fOWsOCx/WNucZcLrms="/>
+        <field:display field="amount" id="s_org_zcu_fav_kiv_pia_slezacek_model_Tank_amount" object="${tank}" z="bWXRjdeJdIe9c+CpnTqxpTAPoBE="/>
+        <field:display field="pricePerLiter" id="s_org_zcu_fav_kiv_pia_slezacek_model_Tank_pricePerLiter" object="${tank}" z="w21BosfrrSiW4eV8RbeOMOXuJmo="/>
+    </page:show>
+</div>

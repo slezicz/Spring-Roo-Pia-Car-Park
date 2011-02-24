@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_zcu_fav_kiv_pia_slezacek_model_Users" modelAttribute="users" path="/users" z="fk8jxKw6QFO3X30wHx8lqFDcTRc=">
+        <field:input field="username" id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_username" min="3" required="true" z="cyXQJJ4XjWSiNMcUIGNAcJGNn6E="/>
+        <field:input field="password" id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_password" min="4" required="true" z="DStbXn2/cDOBWB46AjHL5OSIyZ4="/>
+        <field:input field="email" id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_email" required="true" validationMessageCode="field_invalid_email" z="NIPq+ZKH5wp3rx/3T2FPdTK2HDs="/>
+        <field:checkbox field="enabled" id="c_org_zcu_fav_kiv_pia_slezacek_model_Users_enabled" z="3uBYLo7jyincAGiLAjO2gNdZJEM="/>
+    </form:update>
+</div>

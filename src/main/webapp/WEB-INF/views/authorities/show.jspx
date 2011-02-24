@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_zcu_fav_kiv_pia_slezacek_model_Authorities" object="${authorities}" path="/authorities" z="ztBw96x7pUf1Q2osJ90cdFSyjrg=">
+        
+        
+    
+        <field:display field="authority" id="s_org_zcu_fav_kiv_pia_slezacek_model_Authorities_authority" object="${authorities}" z="sb26WR3gcub36Hr7GR1qQafGJdc="/>
+    
+    <field:display field="userEntry" id="s_org_zcu_fav_kiv_pia_slezacek_model_Authorities_userEntry" object="${authorities}" z="38lXEtqI7Q9hRaKDouzFnktcvNU="/>
+    </page:show>
+</div>

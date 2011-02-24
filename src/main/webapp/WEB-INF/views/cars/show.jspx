@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_zcu_fav_kiv_pia_slezacek_model_Car" object="${car}" path="/cars" z="O6AO5q9VhO5sQK/4FHqyCoXJi68=">
+        <field:display field="manufacturer" id="s_org_zcu_fav_kiv_pia_slezacek_model_Car_manufacturer" object="${car}" z="EXC/YSOmhNuDqk6rKaaBnrep5mQ="/>
+        <field:display field="model" id="s_org_zcu_fav_kiv_pia_slezacek_model_Car_model" object="${car}" z="RqAZxrYnAtGx5Z+aPS70wYLuZWQ="/>
+        <field:display field="carBody" id="s_org_zcu_fav_kiv_pia_slezacek_model_Car_carBody" object="${car}" z="WYuuc3o2G6JbD2IaV1R1Fd7igbg="/>
+        <field:display field="maxTankCapacity" id="s_org_zcu_fav_kiv_pia_slezacek_model_Car_maxTankCapacity" object="${car}" z="X2mUfK9RHhYnPTK2q5qccV1wW+o="/>
+    </page:show>
+</div>

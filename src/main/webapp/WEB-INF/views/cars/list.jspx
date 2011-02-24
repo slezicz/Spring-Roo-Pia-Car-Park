@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_zcu_fav_kiv_pia_slezacek_model_Car" items="${cars}" z="7mT85dqRbcg+EqRirbWZkF62/qM=">
+        <table:table data="${cars}" id="l_org_zcu_fav_kiv_pia_slezacek_model_Car" path="/cars" z="ZNRRjtsLb6nW+YIzKzepkqcScuk=">
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_manufacturer" property="manufacturer" z="OBVRAcKREuiXRyRyafEOHZozmSA="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_model" property="model" z="JKOOMgKnDSCJA3StlsYif1fdMTI="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_carBody" property="carBody" z="yStyQiOW8SZeFl5+cpK1auLGl9U="/>
+            <table:column id="c_org_zcu_fav_kiv_pia_slezacek_model_Car_maxTankCapacity" property="maxTankCapacity" z="lqOKGj/dhSczlXCUWef85O9n+Hk="/>
+        </table:table>
+    </page:list>
+</div>

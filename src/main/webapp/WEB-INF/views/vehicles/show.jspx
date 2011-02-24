@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_zcu_fav_kiv_pia_slezacek_model_Vehicle" object="${vehicle}" path="/vehicles" z="upqX4ejla1xMcGNMfqEDvXNmeQs=">
+        <field:display field="car" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_car" object="${vehicle}" z="/lJdekKVZEb28VZVjDvG46CMLH0="/>
+        <field:display field="owner" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_owner" object="${vehicle}" z="aRs8TnLF2maA7k265rECwMZZx4I="/>
+        <field:display field="tankState" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_tankState" object="${vehicle}" z="UXXOuPU8QkvhTdju9G7krdHZtI0="/>
+        <field:display field="fuelConsumptionTo100Km" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_fuelConsumptionTo100Km" object="${vehicle}" z="w/OIXlRb7qeNkjhBssSWJX7x3zg="/>
+        <field:display field="mileage" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_mileage" object="${vehicle}" z="Y71udvR7kTDVuxrqNsh5Mfqgwtc="/>
+        <field:display field="price" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_price" object="${vehicle}" z="rdd2Mt+fw2WFYS4IWVVBk0FM4N4="/>
+        <field:display field="isMobile" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_isMobile" object="${vehicle}" z="/0XtqVj46Ni73C5Nn08IiN73ajc="/>
+        <field:display field="numberPlate" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_numberPlate" object="${vehicle}" z="la+MSIYJ5ia98vS1AZnrdTxrOf8="/>
+        <field:display field="photoFile" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_photoFile" object="${vehicle}" z="YvKPveluKK80gCo4A/+5+AV+1F0="/>
+        <field:display field="comment" id="s_org_zcu_fav_kiv_pia_slezacek_model_Vehicle_comment" object="${vehicle}" z="7UFtR17G6a1/F06v4ydAPaud57w="/>
+    </page:show>
+</div>
